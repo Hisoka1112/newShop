@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shop1.AdminPanel">
+   <children>
+      <Label layoutX="271.0" layoutY="59.0" text="Panel">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="123.0" text="add book" />
+      <TextField fx:id="pagename" layoutX="47.0" layoutY="141.0" promptText="name book" />
+      <TextField fx:id="pageAuthor" layoutX="47.0" layoutY="173.0" prefHeight="26.0" prefWidth="150.0" promptText="author" />
+      <TextField fx:id="pageprice" layoutX="47.0" layoutY="208.0" promptText="price" />
+      <Button fx:id="adminCreate" layoutX="90.0" layoutY="318.0" mnemonicParsing="false" text="create" />
+      <Button fx:id="adminback" layoutX="37.0" layoutY="34.0" mnemonicParsing="false" text="back " />
+      <ComboBox fx:id="mainPageGenre" layoutX="47.0" layoutY="268.0" prefWidth="150.0" promptText="genre" />
+      <Label layoutX="383.0" layoutY="145.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="145.0" />
+      <Label layoutX="398.0" layoutY="122.0" text="update">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mainPrice" layoutX="353.0" layoutY="208.0" promptText="new price" />
+      <Button fx:id="mainApplication" layoutX="382.0" layoutY="242.0" mnemonicParsing="false" text="application" />
+      <TextField fx:id="mainId" layoutX="353.0" layoutY="148.0" promptText="new id" />
+      <TextField fx:id="CountCode" layoutX="354.0" layoutY="174.0" promptText="new count" />
+      <Label fx:id="erorCode" layoutX="415.0" layoutY="322.0" text="To the tavern" />
+      <Label layoutX="108.0" layoutY="246.0" />
+      <TextField fx:id="CountCodBook" layoutX="48.0" layoutY="234.0" promptText="CountBook" />
+   </children>
+</AnchorPane>
